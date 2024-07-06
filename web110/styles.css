@@ -1,17 +1,17 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
-    background-color: #f79a04;
-    color: #00bbff;
+    background-color: #09bece;
+    color: #e306eb;
 }
 
 h1 {
-    color: #0079fa;
-    background-color: #ffffff;
+    color: #10de32;
+    background-color: #bd4242;
     text-align: center;
 }
 
 p {
-    color: #1f1d1d;
+    color: #ffffff;
     font-size: 16px;
 }
 
