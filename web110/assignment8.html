@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 8 - Database Queries</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Assignment 8 - Database Queries</h1>
+    <p>This assignment demonstrates various SQL queries and their uses.</p>
+
+    <p>SQL SELECT:</p>
+    <ul>
+        <li>SELECT * FROM Customers;</li>
+    </ul>
+
+    <p>SQL WHERE:</p>
+    <ul>
+        <li>SELECT * FROM Customers WHERE Country = 'USA';</li>
+    </ul>
+
+    <p>SQL COUNT:</p>
+    <ul>
+        <li>SELECT COUNT(CustomerID) FROM Customers;</li>
+    </ul>
+
+    <p>SQL INSERT INTO:</p>
+    <ul>
+        <li>INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+        VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');</li>
+    </ul>
+
+    <p>SQL UPDATE:</p>
+    <ul>
+        <li>UPDATE Customers SET ContactName = 'Alfred Schmidt', City= 'Frankfurt' WHERE CustomerID = 1;</li>
+    </ul>
+
+    <p>Through this assignment, I have learned how to use various SQL statements such as SELECT, WHERE, COUNT,<br> 
+        INSERT INTO, and UPDATE. These statements are essential for managing querying databases. <br>
+        I use this knowledge to handle data efficiently in my future projects.<br></p>
+</body>
+</html>
